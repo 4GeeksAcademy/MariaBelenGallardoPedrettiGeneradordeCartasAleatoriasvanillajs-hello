@@ -1,1 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+#carta {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 10px;
+}
+#iconoIzquierda {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  top: -5%;
+  color: red;
+  font-size: 100px;
+  width: 15%;
+  height: 100px;
+}
+#valor {
+  color: black;
+  font-size: 150px;
+  margin: auto;
+  text-align: center;
+}
+#iconoDerecha {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: -5%;
+  color: red;
+  font-size: 100px;
+  width: 15%;
+  height: 100px;
+  transform: rotate(-180deg);
+}
+#botonCambio {
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+#generarCartaBoton {
+  width: 200px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 5% auto;
+}
